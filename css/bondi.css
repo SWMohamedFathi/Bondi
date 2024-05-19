@@ -1,0 +1,26 @@
+:root {
+    --dark-color : #19283f;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar {
+    background-color: var(--dark-color);
+}
+
+
+
+.navbar .navbar-nav  .navbar-link {
+    color: white ;
+}
+
+
+.navbar .navbar-nav  .navbar-link.active,
+.navbar .navbar-nav  .navbar-link:focus,
+.navbar .navbar-nav  .navbar-link:hover  {
+    color: green ;
+}
